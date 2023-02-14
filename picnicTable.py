@@ -1,7 +1,7 @@
 #! /usr/bin/python3
 #in this program we define a printPicnic() method that will take in a dictionary
 #and use center(),ljust() and rjust() to display the information in a neatly aligned
-# table-like format
+# table-like format. PS: another program from automate the boring stuff with python
 
 def printPicnic(itemsDict, leftWidth, rightWidth):
     print('PICNIC ITEMS'.center(leftWidth +rightWidth, '-'))
